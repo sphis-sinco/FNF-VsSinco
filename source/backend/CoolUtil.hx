@@ -7,7 +7,7 @@ class CoolUtil
 {
 	public static function checkForUpdates(url:String = null):String {
 		if (url == null || url.length == 0)
-			url = "https://raw.githubusercontent.com/sphis-sinco/FNF-OneshotEngine/refs/heads/main/gitVersion.txt";
+			url = "https://raw.githubusercontent.com/sphis-sinco/FNF-VsSinco/refs/heads/main/gitVersion.txt";
 		var version:String = ose.Global.OSEV.trim();
 		if(ClientPrefs.data.checkForUpdates) {
 			trace('checking for updates...');

@@ -2,8 +2,8 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Friday Night Funkin': Oneshot Engine" file="OneShotEngine"
-		packageName="com.sinco.oneshotengine" package="com.sinco.oneshotengine"
+	<app title="Friday Night Funkin': Vs Sinco" file="VsSinco"
+		packageName="com.sinco.vssinco" package="com.sinco.vssinco"
 		main="Main" version="0.2.8" company="Sinco" />
 
 	<!--Switch
@@ -107,7 +107,7 @@
 		<haxelib name="funkin.vis" if="BASE_GAME_FILES" />
 	</section>
 
-	<define name="CHECK_FOR_UPDATES" if="desktop debug" />
+	<define name="CHECK_FOR_UPDATES" if="desktop" />
 
 	<section if="MODS_ALLOWED">
 		<assets path='example_mods' rename='mods' embed='false' type='template' unless="mac" />

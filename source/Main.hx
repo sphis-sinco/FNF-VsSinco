@@ -90,7 +90,7 @@ class Main extends Sprite
 		#end
 		Mods.loadTopMod();
 
-		FlxG.save.bind('OneShot', CoolUtil.getSavePath());
+		FlxG.save.bind('VsSinco', CoolUtil.getSavePath());
 		Highscore.load();
 
 		#if HSCRIPT_ALLOWED
